@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     initial-scale=1.0"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="bg-indigo-950 z-40 fixed right-0 left-0 top-0">
+      <div class="container mx-auto">
+        <nav
+          class="flex flex-row items-center justify-between py-5 kont mx-auto relative"
+        >
+          <img src="./img/logo.svg" alt="" class="logo" />
+          <div
+            class="nav-links text-white opacity-70 hidden md:flex flex-row gap-10 items-center"
+          >
+            <a href="" class="nav-link font-poppins">Home</a>
+            <a href="" class="nav-link font-poppi">About us</a>
+            <a href="" class="nav-link font-poppi">Pricing</a>
+            <a href="./html/contact.html" class="nav-link font-poppi"
+              >contact</a
+            >
+            <a href="" class="nav-link font-poppi">Blog</a>
+            <button
+              class="py-4 border-slate-600 border-solid border-2 rounded-full px-12"
+            >
+              Contact us
+            </button>
+          </div>
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none right-0 absolute"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: rgb(255, 255, 255)"
+            >
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+          </button>
+          <div class="md:hidden">
+            <div
+              id="menu"
+              class="absolute men-tog flex-col items-center hidden self-end py-8 mt-10 spca-y-6 font-bold bg-white sm:w-auto self-center left-6 right-6 drop-shadow-md"
+            >
+              <a href="#">About us</a>
+              <a href="#">Pricing</a>
+              <a href="#">Work</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="mt-28">
+      <section class="home py-14">
+        <div
+          class="kont mx-auto flex flex-col gap-10 sm:flex-row items-center justify-between"
+        >
+          <div class="home-left">
+            <p class="p1 text-4xl leading-8 h-8 text-lg">About Us</p>
+            <p class="p2 pt-8 text-5xl font-semibold font-poppi">
+              Our designs solve problems
+            </p>
+            <p class="p3 max-w-sm pt-8 font-poppi opacity-70">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="home-right">
+            <img src="./img/home.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="goal">
+        <div class="kont mx-auto">
+          <div
+            class="goal-content bg-gray-100 flex flex-col justify-between px-20 py-20"
+          >
+            <div class="texts flex flex-col sm:flex-row pb-10 gap-10">
+              <div class="text1">
+                <p class="p4 text-slate-900 font-semibold l-10 text-4xl">
+                  Goal focussed
+                </p>
+                <p class="p5 l-7 opacity-70 font-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div class="text1">
+                <p class="p4 text-slate-900 font-semibold l-10 text-4xl">
+                  Goal focussed
+                </p>
+                <p class="p5 l-7 opacity-70 font-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <img src="./img/man.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="team bg-slate-100 pb-32">
+        <div class="kont mx-auto">
+          <p
+            class="p6 pt-32 pb-12 text-slate-900 text-5xl font-semibold font-poppi text-center"
+          >
+            Meet Our Team
+          </p>
+          <div class="cards flex flex-col 2xl:flex-row 2xl:justify-between">
+            <div class="card bg-white px-16 flex flex-col items-center">
+              <img src="./img/john.png" alt="" class="pt-12 mt-12 pb-8" />
+              <p
+                class="p7 max-w-md font-medium px-auto text-sm font-poppi pb-12"
+              >
+                John Smith
+              </p>
+            </div>
+            <div class="card bg-white px-16 flex flex-col items-center">
+              <img src="./img/john.png" alt="" class="pt-12 mt-12 pb-8" />
+              <p
+                class="p7 max-w-md font-medium px-auto text-sm font-poppi pb-12"
+              >
+                John Smith
+              </p>
+            </div>
+            <div class="card bg-white px-16 flex flex-col items-center">
+              <img src="./img/john.png" alt="" class="pt-12 mt-12 pb-8" />
+              <p
+                class="p7 max-w-md font-medium px-auto text-sm font-poppi pb-12"
+              >
+                John Smith
+              </p>
+            </div>
+            <div class="card bg-white px-16 flex flex-col items-center">
+              <img src="./img/john.png" alt="" class="pt-12 mt-12 pb-8" />
+              <p
+                class="p7 max-w-md font-medium px-auto text-sm font-poppi pb-12"
+              >
+                John Smith
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-indigo-950 py-24">
+      <div class="kont mx-auto">
+        <div class="flex gap-x-36 flex-col gap-10 lg:flex-row">
+          <div class="left-side">
+            <a href="#" class="logo block mb-6">
+              <img src="./img/logo.svg" alt="Logo" />
+            </a>
+            <p
+              class="leading-7 font-medium text-white opacity-70 max-w-sm mb-20"
+            >
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+            <div
+              class="contact py-4 pl-9 pr-32 bg-amber-300 flex items-center flex-col sm:flex-row gap-x-8 font-medium text-color-fourth"
+            >
+              <div class="left-side">
+                <p class="leading-8">Email me at</p>
+                <p class="leading-7 opacity-80">contact@website.com</p>
+              </div>
+              <div class="right-side">
+                <p class="leading-8">Call us</p>
+                <p class="leading-7 opacity-80 w-36">0927 6277 28525</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <p class="text-white text-5xl mb-4 font-medium">Lets Talk!</p>
+            <p class="max-w-sm text-white opacity-80 mb-7 leading-7">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </p>
+            <div class="icons flex gap-x-7">
+              <a href="#" class="social">
+                <img src="./img/face.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="./img/ins.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="./img/lin.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="./img/twit.svg" alt="Social medi" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

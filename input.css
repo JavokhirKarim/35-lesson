@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger {
+  cursor: pointer;
+  position: relative;
+}
+
+.men-tog {
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     initial-scale=1.0"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="bg-indigo-950 z-40 fixed right-0 left-0 top-0">
+      <div class="container mx-auto">
+        <nav
+          class="flex flex-row items-center justify-between py-5 kont mx-auto relative"
+        >
+          <img src="../img/logo.svg" alt="" class="logo" />
+          <div
+            class="nav-links text-white opacity-70 hidden md:flex flex-row gap-10 items-center"
+          >
+            <a href="../index.html" class="nav-link font-poppins">Home</a>
+            <a href="" class="nav-link font-poppi">About us</a>
+            <a href="" class="nav-link font-poppi">Pricing</a>
+            <a href="" class="nav-link font-poppi">Work</a>
+            <a href="" class="nav-link font-poppi">Blog</a>
+            <button
+              class="py-4 border-slate-600 border-solid border-2 rounded-full px-12"
+            >
+              Contact us
+            </button>
+          </div>
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none right-0 absolute"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: rgb(255, 255, 255)"
+            >
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+          </button>
+          <div class="md:hidden">
+            <div
+              id="menu"
+              class="absolute men-tog flex-col items-center hidden self-end py-8 mt-10 spca-y-6 font-bold bg-white sm:w-auto self-center left-6 right-6 drop-shadow-md"
+            >
+              <a href="../index.html">Home</a>
+              <a href="#">Pricing</a>
+              <a href="#">Work</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mt-52">
+      <div class="kont mx-auto">
+        <div class="main-content sm:flex-col sm:items-center">
+          <p
+            class="p10 font-poppi text-5xl not-italic font-semibold l-10 text-indigo-950 text-center"
+          >
+            Contact us
+          </p>
+          <p
+            class="p11 sm:w-96 opacity-70 font-poppi text-base not-italic font-normal leading-6 text-center mx-auto my-9"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore.
+          </p>
+        </div>
+        <div class="main-input bg-slate-200 mb-5 p-4 rounded-lg">
+          <div
+            class="first-inputs flex flex-col sm:flex-row gap-8 justify-center"
+          >
+            <div class="flex flex-col justify-items-start">
+              <label class="font-poppi text-lg text-black font-medium leading-8"
+                >Name</label
+              >
+              <input
+                type="text"
+                placeholder="enter your name"
+                class="rounded-lg border-neutral-200 border mb-6"
+              />
+            </div>
+            <div class="flex flex-col justify-items-start">
+              <label class="font-poppi text-lg text-black font-medium leading-8"
+                >Email</label
+              >
+              <input
+                type="email"
+                placeholder="enter your Email"
+                class="rounded-lg border-neutral-200 border mb-6"
+              />
+            </div>
+          </div>
+          <div
+            class="first-inputs flex flex-col sm:flex-row gap-8 justify-center"
+          >
+            <div class="flex flex-col justify-items-start">
+              <label class="font-poppi text-lg text-black font-medium leading-8"
+                >subject</label
+              >
+              <input
+                type="text"
+                placeholder="enter your name"
+                class="rounded-lg border-neutral-200 border mb-6"
+              />
+            </div>
+            <div class="flex flex-col justify-items-start">
+              <label class="font-poppi text-lg text-black font-medium leading-8"
+                >subject</label
+              >
+              <input
+                type="email"
+                placeholder="enter your Email"
+                class="rounded-lg border-neutral-200 border mb-6"
+              />
+            </div>
+          </div>
+          <div class="third-input flex flex-col items-center">
+            <label
+              class="font-poppi text-lg text-black font-medium leading-8 text-start"
+              >Messege</label
+            >
+            <textarea
+              name=""
+              id=""
+              cols="5"
+              rows="5"
+              class="w-4/12 outline-none rounded-lg border-neutral-200 border"
+              placeholder=""
+            >
+            </textarea>
+          </div>
+          <div class="tugms text-center">
+            <button
+              class="font-poppi text-lg text-white bg-gray-900 font-medium leading-8 border-solid border-2 rounded-full px-12 py-3 my-5"
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-indigo-950 py-24">
+      <div class="kont mx-auto">
+        <div class="flex gap-x-36 flex-col gap-10 lg:flex-row">
+          <div class="left-side">
+            <a href="#" class="logo block mb-6">
+              <img src="../img/logo.svg" alt="Logo" />
+            </a>
+            <p
+              class="leading-7 font-medium text-white opacity-70 max-w-sm mb-20"
+            >
+              We are always open to discuss your project and improve your online
+              presence.
+            </p>
+            <div
+              class="contact py-4 pl-9 pr-32 bg-amber-300 flex items-center flex-col sm:flex-row gap-x-8 font-medium text-color-fourth"
+            >
+              <div class="left-side">
+                <p class="leading-8">Email me at</p>
+                <p class="leading-7 opacity-80">contact@website.com</p>
+              </div>
+              <div class="right-side">
+                <p class="leading-8">Call us</p>
+                <p class="leading-7 opacity-80 w-36">0927 6277 28525</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <p class="text-white text-5xl mb-4 font-medium">Lets Talk!</p>
+            <p class="max-w-sm text-white opacity-80 mb-7 leading-7">
+              We are always open to discuss your project, improve your online
+              presence and help with your UX/UI design challenges.
+            </p>
+            <div class="icons flex gap-x-7">
+              <a href="#" class="social">
+                <img src="../img/face.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="../img/ins.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="../img/lin.svg" alt="Social medi" />
+              </a>
+              <a href="#" class="social">
+                <img src="../img/twit.svg" alt="Social medi" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
